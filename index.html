@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="CONTACT: CONtact-aware TACTile Learning for Robotic Disassembly">
+  <meta name="keywords" content="Contact-aware, Tactile Learning, Robotic Disassembly, contact-aware manipulation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CONTACT</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics --> 
+  <!-- We can add Google Analytics here later
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+  --> 
+  
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">CONTACT: CONtact-aware TACTile Learning for Robotic Disassembly</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="">Yosuke Saka</a><sup>1,*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Jyun-Chi Hu</a><sup>1,*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Adeesh Desai</a><sup>1,*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://zhangzhiyuanzhang.github.io/personal_website/">Zhiyuan Zhang</a><sup>1,*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Bihao Zhang</a><sup>2,*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Quan Khanh Luu</a><sup>1,*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Md Rakibul Islam Prince</a><sup>1,*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Minghui Zheng</a><sup>2,*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.purduemars.com/">Yu She</a><sup>1,†</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <sup>1</sup> Purdue University, <sup>2</sup> Texas A&M University
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2603.08560"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Arxiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://drive.google.com/file/d/1YDdgNya9SHQCoVH6VQZWDRNWIHXBYxAZ/view?usp=share_link"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                    class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (Coming Soon)</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Teaser</h2>
+        <div class="content has-text-centered">
+          <img id="Teaser" src="static/videos/teaser.gif" alt="Teaser" width="100%">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            CONTACT is ...
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-centered">
+          <img id="pipline" src="./static/figures/pipeline.pdf" alt="Overall Pipeline" width="100%">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            abstract...
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Task design. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Task Design</h2>
+        <div class="content has-text-centered">
+          <img id="pipline" src="./static/figures/objects.pdf" alt="The Object Set Used in the Task Suite" width="100%">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            task design...
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Task design. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video Highlights</h2>
+        <div class="content has-text-justified">
+          <p>
+            We visualize representative rollouts across ... The following rollouts highlight the central findings of CONTACT across representative tasks and conditions...
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Geometry-dominant task -->
+    <div class="content">
+      <h3 class="title is-4">1. Geometry-dominant task: modest gains</h3>
+
+      <!-- Vision-only -->
+      <h4 class="title is-5">Vision-only</h4>
+      <div class="columns is-multiline">
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_cam_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_cam_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_cam_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+          <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_cam_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_cam_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_cam_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Vision-only -->
+
+      <!-- Vision + TacFF -->
+      <h4 class="title is-5">Vision + TacFF</h4>
+      <div class="columns is-multiline">
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_ff_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_ff_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_ff_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+          <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_ff_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_ff_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_ff_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Vision + TacFF -->
+
+      <!-- Vision + TacRGB -->
+      <h4 class="title is-5">Vision + TacRGB</h4>
+      <div class="columns is-multiline">
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_tac_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_tac_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_tac_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+          <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_tac_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_tac_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-2">
+          <video autoplay muted loop playsinline controls width="100%">
+            <source src="./static/videos/Geometry/R1_tac_P1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Vision + TacRGB -->
+
+      <div class="content has-text-justified mt-5">
+        <p>
+          In geometry-dominant tasks, all three sensing configurations perform reasonably well. Tactile sensing provides only modest improvement because visual observations are already sufficient to guide manipulation in relatively structured settings. These examples show that tactile sensing is not uniformly beneficial across all disassembly tasks.
+        </p>
+      </div>
+
+      <!--/ Geometry-dominant task -->
+    </div>
+
+    <hr>
+
+
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3 has-text-centered">BibTeX</h2>
+    <pre style="background: #f8f8f8; border-radius: 6px; box-shadow: 0 1px 6px rgba(0,0,0,0.05); font-family: 'Castoro', monospace;"><code>
+      @misc{saka2026contactcontactawaretactilelearning,
+        title={CONTACT: CONtact-aware TACTile Learning for Robotic Disassembly}, 
+        author={Yosuke Saka and Jyun-Chi Hu and Adeesh Desai and Zhiyuan Zhang and Bihao Zhang and Quan Khanh Luu and Md Rakibul Islam Prince and Minghui Zheng and Yu She},
+        year={2026},
+        eprint={2603.08560},
+        archivePrefix={arXiv},
+        primaryClass={cs.RO},
+        url={https://arxiv.org/abs/2603.08560}, 
+  }
+    </code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="https://github.com/ZhangZhiyuanZhang" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            The template of this website is adapted from <a
+              href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

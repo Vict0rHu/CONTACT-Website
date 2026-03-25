@@ -52,28 +52,28 @@
           <h1 class="title is-1 publication-title">CONTACT: CONtact-aware TACTile Learning for Robotic Disassembly</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://www.linkedin.com/in/yosuke-saka-446410283">Yosuke Saka</a><sup>1,*</sup>,
+              <a href="https://www.linkedin.com/in/yosuke-saka-446410283">Yosuke Saka</a><sup>1,*</sup>
             </span>
             <span class="author-block">
-              <a href="https://vict0rhu.github.io">Jyun-Chi Hu</a><sup>1,*</sup>,
+              <a href="https://vict0rhu.github.io">Jyun-Chi Hu</a><sup>1,*</sup>
             </span>
             <span class="author-block">
-              <a href="">Adeesh Desai</a><sup>1,*</sup>,
+              <a href="">Adeesh Desai</a><sup>1,*</sup>
             </span>
             <span class="author-block">
-              <a href="https://zhangzhiyuanzhang.github.io/personal_website/">Zhiyuan Zhang</a><sup>1,*</sup>,
+              <a href="https://zhangzhiyuanzhang.github.io/personal_website/">Zhiyuan Zhang</a><sup>1,*</sup>
             </span>
             <span class="author-block">
               <a href="">Bihao Zhang</a><sup>2,
             </span>
             <span class="author-block">
-              <a href="https://quan-luu.github.io/">Quan Khanh Luu</a><sup>1,
+              <a href="https://quan-luu.github.io/">Quan Khanh Luu</a><sup>1
             </span>
             <span class="author-block">
-              <a href="https://prince-css.github.io/#">Md Rakibul Islam Prince</a><sup>1,
+              <a href="https://prince-css.github.io/#">Md Rakibul Islam Prince</a><sup>1
             </span>
             <span class="author-block">
-              <a href="">Minghui Zheng</a><sup>2,
+              <a href="">Minghui Zheng</a><sup>2
             </span>
             <span class="author-block">
               <a href="https://www.purduemars.com/">Yu She</a><sup>1,†</sup>
@@ -151,7 +151,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-centered">
-          <img id="pipline" src="./static/figures/pipeline.pdf" alt="Overall Pipeline" width="100%">
+          <img id="pipline" src="./static/figures/abstract.svg" alt="Overall Pipeline" width="100%">
         </div>
         <div class="content has-text-justified">
           <p>
@@ -171,7 +171,7 @@
         <h2 class="title is-3">Key Contributions</h2>
         
         <div class="content has-text-centered">
-          <img id="contributions-img" src="./static/figures/tasks.pdf" alt="Task Suite" width="100%">
+          <img id="contributions-img" src="./static/figures/pipeline.svg" alt="Task Suite" width="100%">
         </div>
 
         <div class="content has-text-justified">
@@ -194,22 +194,49 @@
   
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Task design. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Task Design</h2>
+        
+        <div class="content has-text-justified">
+          <p>
+            We designed a comprehensive suite of 10 disassembly tasks with increasing geometric and physical complexity, spanning both simulation and real-world environments.
+          </p>
+        </div>
+
+        <h3 class="title is-4">Simulation Tasks (S1–S5)</h3>
         <div class="content has-text-centered">
-          <img id="pipline" src="./static/figures/objects.pdf" alt="The Object Set Used in the Task Suite" width="100%">
+          <img src="./static/figures/sim_tasks.pdf" alt="Simulation Tasks" width="100%">
         </div>
         <div class="content has-text-justified">
           <p>
-            task design...
+            Focused on <strong>rigid-body interactions</strong> under controlled conditions to evaluate how sensing modalities handle geometric constraints:
           </p>
+          <ul>
+            <li><strong>S1 & S2:</strong> Vertical pulling with loose/tight sockets to test alignment precision.</li>
+            <li><strong>S3:</strong> A multi-stage task involving a lid-like constraint.</li>
+            <li><strong>S4 & S5:</strong> Tasks featuring flat and spike barbs that introduce asymmetric contact resistance.</li>
+          </ul>
         </div>
+
+        <h3 class="title is-4">Real-World Tasks (R1–R5)</h3>
+        <div class="content has-text-centered">
+          <img src="./static/figures/real_tasks.pdf" alt="Real-World Tasks" width="100%">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            Incorporates <strong>physical variability and deformable components</strong> where successful manipulation depends on detecting subtle force changes:
+          </p>
+          <ul>
+            <li><strong>R1 – R3:</strong> Rigid-body extractions matching simulation geometries to bridge the sim-to-real gap.</li>
+            <li><strong>R4 (Push Tab):</strong> Requires compressing a deformable tab prior to release.</li>
+            <li><strong>R5 (Vertical Clip):</strong> An elastic mechanism requiring controlled deformation to disengage a hook.</li>
+          </ul>
+        </div>
+
       </div>
     </div>
-    <!--/ Task design. -->
-  </div>
+    </div>
 </section>
 
 <section class="section">
